@@ -11,7 +11,7 @@
         "proxmox_storage_iso": "{{env `proxmox_storage_iso`}}",
         "iso_filename": "{{env `iso_filename`}}",
         "vm_id": "{{env `vm_id`}}",
-        "vm_name": "deb10-tmpl",
+        "vm_name": "tmpl-debian-10.9",
         "template_description": "Debian 10 x86_64 template built with packer ({{env `vm_ver`}}). Username: {{env `vm_default_user`}}",
         "vm_default_user": "{{env `vm_default_user`}}",
         "vm_memory": "{{env `vm_memory`}}",
